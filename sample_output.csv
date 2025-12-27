@@ -1,0 +1,8 @@
+customer_id,customer_name,email,phone,last_service_date,address,issue
+1001,Acme Corp,contact@acme.com,555-123-4567,#FMT,123 Main St,Invalid date (not a number)
+1002,,info@globex.com,5551234567,2024-02-15,456 Oak Ave,missing data in customer_name
+1003,Initech,invalid-email,555-987-6543,not_a_date,789 Pine Rd,Invalid date (not a number)
+1004,Umbrella Corp,,555-000-1111,2023-11-10,,"missing data in email, missing data in address"
+1005,Wayne Enterprises,bruce@wayne.com,,2024-01-05,1007 Mountain Dr,missing data in phone
+1006,Stark Industries,tony@stark.com,555-IRONMAN,,200 Park Ave,missing data in last_service_date
+1007,Oscorp,contact@oscorp.com,555-222-3333,2022-01-12,42 Lab Way,
